@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Data Visualisation Project"/>
+        <meta name="keywords" content="HTML, CSS, D3, Sustainability, Energy, Swinburne"/>
+        <meta name="author" content="Faiz Syed Ibrahim 102046051"/>
+
+        <link href= "styles/style.css" rel="stylesheet" />
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+        <title>Data Visualisation Project</title>
+    </head>
+
+    <body>  
+        <div id="headerimage">
+            <div id="headerposition">
+                <h1 id="headertext">Sustainability : Energy </h1>
+            </div>
+        </div>
+        
+        <div id="navbarbackground">
+            <p id="navbartext">
+                <a class="navbarlink" href="index.html"> Home </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="navbarlink" href="energyconsumption.html">Consumption of Energy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+                <a class="navbarlink" href="productionofenergy.html"> Statewise Production of Energy </a> 
+            </p>
+        </div>
+
+        <h2>Statewise Production of Energy</h2>
+        <p class='graphinfo'>
+            For this visualisation, we investigate the energy produced in the different states of Australia over the past decade. The dataset has been divided into Renewable Energy Production and Non-Renewable Energy Production. The dataset for these visualisations was acquired from <a class='graphlink' href='https://www.energy.gov.au/publications/australian-energy-update-2021'>Australian Energy Update 2021 Report</a> on the Australian Government website. <br><br>
+
+            We have the years on the x-axis and the different states on the y-axis. The darker a data cell, the more amount of energy is produced. A scale has been provided to estimate the energy produced based on the cell color. When hovering over a data cell, tooltips provide interactivity by displaying the exact amount of energy produced along with the name of the state and the year. Moreover, the user can switch between the Renewable Energy and Non-Renewable Energy graphs using the buttons below.<br><br>
+
+            One petajoule (PJ) equals 1,000,000,000,000,000 joules. Joule is a unit of energy equalling 0.24 calories.<br>1 PJ = 278 gigawatt hours (GWh) of electricity.
+        </p>
+
+        <div id="div_template">
+            <script src="scripts/production.js"></script>
+            <img src="images/scale.png" id="image4">
+        </div>
+
+        <div id="div_template_2">
+            <script src="scripts/production2.js"></script>
+            <img src="images/scale2.png" id="image5">
+        </div>
+
+
+        <p id="buttons">
+            <button onclick="myFunction()" id='button1'>Renewable Energy</button>
+            <button onclick="myFunction2()" id='button2'>Non-Renewable Energy</button>
+            <script src="scripts/button.js"></script>
+        </p>
+
+
+		<footer>
+            <p id="footertext"> 
+                COS30045 Data Visualisation Project<br/>
+			    Faiz Syed Ibrahim 103146075
+            </p>
+        </footer>
+    </body> 
+</html>

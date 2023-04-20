@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Data Visualisation Project"/>
+        <meta name="keywords" content="HTML, CSS, D3, Sustainability, Energy, Swinburne"/>
+        <meta name="author" content="Faiz Syed Ibrahim 102046051"/>
+
+        <link href= "styles/style.css" rel="stylesheet" />
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <script src="https://d3js.org/d3.v6.js"></script>
+
+        <title>Data Visualisation Project</title>
+    </head>
+
+    <body>  
+        <div id="headerimage">
+            <div id="headerposition">
+                <h1 id="headertext">Sustainability : Energy </h1>
+            </div>
+        </div>
+        
+        <div id="navbarbackground">
+            <p id="navbartext">
+                <a class="navbarlink" href="index.html"> Home </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a class="navbarlink" href="energyconsumption.html">Consumption of Energy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+                <a class="navbarlink" href="productionofenergy.html"> Statewise Production of Energy </a> 
+            </p>
+        </div>
+
+        <h2>Consumption of Energy</h2>
+        <p class='graphinfo'>
+            In this visualisation, we analyse the total quantity of energy consumed in Australia from 1980 to 2019. Here, we provided a breakdown of the fuel types consumed over the years. We were able to visualise accurate data by using the <a class='graphlink' href='https://www.energy.gov.au/publications/australian-energy-update-2021'>Australian Energy Update 2021 Report</a> from the Australian Government website as the data source for this infographic.<br><br>
+
+            We have the time period in years on the x-axis and the amount of energy consumed in petajoules on the y-axis. By hovering over a fuel type in the legend, the area graph corresponding to that fuel type would have a different opacity, highlighting that fuel type while fading the others into the background. Additionally, brushing is added to the visualisation so that the viewer can zoom in on a particular time period. By double-clicking the graph, the default view will be restored.<br><br>
+
+            Gigawatt hours, abbreviated as GWh, is a unit of energy representing one billion (1,000,000,000) watt hours and is equivalent to one million kilowatt hours. Gigawatt hours are often used as a measure of the output of large electricity power stations. 
+        </p>
+
+        <div id="myChart">
+        <script src="scripts/consumption.js"></script>
+        </div> 
+
+		<footer>
+            <p id="footertext"> 
+                COS30045 Data Visualisation Project<br/>
+			    Faiz Syed Ibrahim 103146075
+            </p>
+        </footer>
+    </body> 
+</html>

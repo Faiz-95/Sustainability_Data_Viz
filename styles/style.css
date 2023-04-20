@@ -1,0 +1,200 @@
+/*
+CSS file for Data Visualisation Project of Faiz ad Vinh
+linked to index.html,   ,
+Semester 1 2022
+COS30045
+*/
+
+#headerimage {
+    background-image: url("../images/background.jpg");
+    width: 100%;
+    height: 9rem;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+#headerposition {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#headertext {
+    color: white;
+    font-style: italic;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 4.3rem;
+    transform: translateY(-60%);
+}
+
+/*___________________________________________________________________*/                         
+
+#navbarbackground, footer {
+    display: inline-block;
+    width: 100%;
+    height: 81px;
+    background-color: rgb(198,160,248);
+}
+
+#navbartext, #footertext {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.navbarlink, .graphlink {
+    color: black;
+}
+
+.navbarlink:visited, .graphlink:visited {
+    color: black;
+}
+
+#footertext {
+    font-size: 1.2rem;
+}
+
+/*___________________________________________________________________*/  
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left:2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+i {
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    clear: both;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    clear: both;
+}
+
+body {
+    margin: 0;
+    width:100%;
+}
+
+footer {
+    position: absolute;
+    clear: both;
+}
+
+/*___________________________________________________________________*/
+
+#homepara1 {
+    width: 60%;
+    float: left;
+}
+
+.graphinfo {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 1.5rem;
+}
+
+
+#image1 {
+    width: 450px;
+    float: right;
+    padding-right: 2.5rem;
+    padding-top: 4rem;
+}
+
+#image2 {
+    width: 550px;
+    float: left;
+    padding-right: 2.5rem;
+    padding-left: 6rem;
+    padding-bottom: 2.5rem;
+}
+
+#image3 {
+    width: 550px;
+    float: right;
+    padding-right: 6rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#image4 {
+    float: right;
+    padding-top: 11rem;
+    padding-right: 12rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.1rem;
+}
+
+#image5 {
+    float: right;
+    padding-top: 11rem;
+    padding-right: 12rem;
+    padding-bottom: 2.5rem;
+}
+
+
+/*___________________________________________________________________*/
+
+
+#myChart, .tooltip {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+#div_template{
+    padding-bottom: 0.5rem;
+    clear: both;
+    position: absolute;
+    background-color: white;
+    padding-bottom: 1.5rem;
+}
+
+
+#div_template_2{
+    padding-bottom: 0.5rem;
+    clear: both;
+    position: relative;
+    background-color: white;
+    padding-bottom: 1.5rem;
+}
+
+#buttons {
+    margin-left: 26.75rem;
+    position: sticky;
+    z-index: 3;
+}
+
+#button1 {
+    margin-left: 1.5rem;
+    font-weight: bold; padding: 15px; background-color: rgb(0,0,0); color: white;
+    font-size: 1rem;
+}
+
+#button2 {
+    margin-left: 1.5rem;
+    font-weight: bold; padding: 15px; background-color: rgb(0,0,0); color: white;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
